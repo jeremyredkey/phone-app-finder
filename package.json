@@ -1,0 +1,26 @@
+{
+  "name": "express_drills",
+  "version": "1.0.0",
+  "description": "Solution code for Express Drills",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "debug": "ndb app"
+  },
+  "keywords": [
+    "Express",
+    "Request",
+    "query"
+  ],
+  "author": "Vincent Ramdhanie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "ndb": "^1.0.42",
+    "nodemon": "^1.18.9"
+  }
+}
